@@ -126,6 +126,19 @@ td:nth-child(3),
   background: none;
 }
 
+.cta {
+  color: white;
+  background-color: var(--color-chimnl-blue);
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.cta:hover {
+  color: white;
+  opacity: 0.85;
+}
+
 @media only screen and (max-width: 768px) {
   .nav-items {
     transition: all 300ms ease;
