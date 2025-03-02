@@ -1,4 +1,4 @@
-@import url("../../common/normalize.css");
+@import "normalize.css";
 
 .container {
   max-width: 1300px;
@@ -14,13 +14,12 @@
   width: 200px;
 }
 
-
-span.unobtrusive{
-    font-family: var(--font-family-body);
-    font-weight: 400;
-    color: var(--color-dark-2);
+span.unobtrusive {
+  font-family: var(--font-family-body);
+  font-weight: 400;
+  color: var(--color-dark-2);
 }
 
-.chi-mnl-logo{
-    max-width: 200px;
+.chi-mnl-logo {
+  max-width: 200px;
 }
