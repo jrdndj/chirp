@@ -1,4 +1,4 @@
-@import "/common/normalize.css";
+@import "../../common/normalize.css";
 
 .container {
   max-width: 1300px;

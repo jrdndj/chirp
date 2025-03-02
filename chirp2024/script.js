@@ -2,7 +2,7 @@ const nav = document.querySelector(".nav-items");
 
 const headerOffset = document.querySelector(".navbar").offsetHeight;
 
-const navLinks = document.querySelectorAll(".nav-items a");
+const navLinks = document.querySelectorAll(".nav-items a:not(.external)");
 navLinks.forEach((link) => {
   link.addEventListener("click", function (e) {
     e.preventDefault();
