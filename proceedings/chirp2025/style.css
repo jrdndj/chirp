@@ -1,0 +1,25 @@
+@import "normalize.css";
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  width: calc(100% - 4rem);
+  padding-bottom: 2rem;
+}
+
+.logo {
+  margin-right: 10px;
+}
+.logo img {
+  width: 200px;
+}
+
+span.unobtrusive {
+  font-family: var(--font-family-body);
+  font-weight: 400;
+  color: var(--color-dark-2);
+}
+
+.chi-mnl-logo {
+  max-width: 200px;
+}
