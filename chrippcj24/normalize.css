@@ -1,0 +1,134 @@
+:root {
+  --font-family-heading: Arial, sans-serif;
+  --font-family-body: Arial, sans-serif;
+  --color-dark-1: #333333;
+  --color-dark-2: #4a4a4a;
+  --color-chimnl-blue: #0038a8;
+  --color-chimnl-red: #ce1126;
+  --font-size-base: 1rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+figure,
+picture,
+ul,
+form {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--font-family-heading);
+  font-weight: bold;
+  color: var(--color-dark-1);
+}
+
+p,
+small,
+li,
+td {
+  font-family: var(--font-family-body);
+  font-weight: 400;
+  color: var(--color-dark-2);
+}
+
+body {
+  font-family: var(--font-family-body);
+  font-size: var(--font-size-base);
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  color: var(--color-chimnl-blue);
+  transition: all ease-in-out 300ms;
+}
+
+a:hover {
+  color: #009e92;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media only screen and (max-width: 699px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  h4 {
+    font-size: 1.25rem;
+  }
+}
